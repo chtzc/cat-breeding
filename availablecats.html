@@ -11,6 +11,8 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
     crossorigin="anonymous"
   />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6bfa7aa7a0.js" crossorigin="anonymous"></script>
 </head>
 <style>
     .form-check{
@@ -49,64 +51,27 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="breeders.html"
-                    >Breeders</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="availablecats.html">Available Cats</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="adoption.html">Adoption Form</a>
-                </li>
-              
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+      <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page"href="availablecats.html">Available Cats</a>
+              <a class="nav-link" href="breeders.html">Breeders</a>
+              <a class="nav-link" href="adoption.html">Adoption Form</a>
+     
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
+  
       </header>
       <main>
        
-        <section>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Filter by Breed
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#" id="angoraCheck">Angora</a>
-                  <a class="dropdown-item" href="#" id="britishLCheck">British Short Hair</a>
-                  <a class="dropdown-item" href="#" id="britishSCheck">British Long Hair</a>
-                </div>
-              </div>
-        </section>
+  
         <div class="main-container">
             <div class="card" style="width: 18rem;">
                 <img  src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" class="card-img-top" alt="..." id="angora">
@@ -119,7 +84,6 @@
               <div class="card" style="width: 18rem;" id="angora">
                 <img  src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" class="card-img-top" alt="..." >
                 <div class="card-body">
-                    
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -190,7 +154,7 @@
               </div>
         </div>
       </main>
-      <footer class="bg-dark text-center text-white">
+      <footer class="bg-dark text-center text-white" id="footer" >
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->

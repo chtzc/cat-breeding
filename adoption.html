@@ -11,6 +11,8 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
     crossorigin="anonymous"
   />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6bfa7aa7a0.js" crossorigin="anonymous"></script>
 </head>
 <style>
 main > form{
@@ -30,70 +32,22 @@ header{
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"
   ></script>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="breeders.html">Home</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Breeders</a
-                  >
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="availablecats.html">Available Cats</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="adoption.html">Adoption Form</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Breeds
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">British Short Hair</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Angora</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">British Long Hair</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="availablecats.html">Available Cats</a>
+          <a class="nav-link" href="breeders.html">Breeders</a>
+          <a class="nav-link active" aria-current="page" href="adoption.html">Adoption Form</a>
+ 
+        </div>
+      </div>
+    </div>
+  </nav>
       <main>
         <form>
             <div class="mb-3">
@@ -146,7 +100,7 @@ header{
               </div>
           </form>
       </main>
-      <footer class="bg-dark text-center text-white">
+      <footer class="bg-dark text-center text-white" id="footer" >
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
